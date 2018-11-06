@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import config from './Config'
+import config from './Config'	//Firebase configuration ignore  
 const firebase = require('firebase');
 const uuid     = require('uuid/v1');
 firebase.initializeApp(config);
